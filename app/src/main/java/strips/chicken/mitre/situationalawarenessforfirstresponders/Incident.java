@@ -8,9 +8,9 @@ import java.util.ArrayList;
 
 public class Incident {
 
-    public class Person{
-        private String name             = "";
-        private String role             = "";
+    public class Person {
+        private String name = "";
+        private String role = "";
 
         public Person() {
         }
@@ -37,24 +37,24 @@ public class Incident {
         }
     }
 
-    public class Point{
-        private double longitude        = -1;
-        private double latitude         = -1;
+    public class Point {
+        private double longitude = -1;
+        private double latitude = -1;
 
-        public Point(){
+        public Point() {
 
         }
 
-        public Point(double lon, double lat){
+        public Point(double lon, double lat) {
             longitude = lon;
             latitude = lat;
         }
 
-        public double getLongitude(){
+        public double getLongitude() {
             return longitude;
         }
 
-        public double getLatitude(){
+        public double getLatitude() {
             return latitude;
         }
 
@@ -67,17 +67,17 @@ public class Incident {
         }
     }
 
-    private String type             = "";
-    private String notes            = "";
-    private String commander        = "";
+    private String type = "";
+    private String notes = "";
+    private String commander = "";
     private ArrayList<Point> points = new ArrayList<Point>();
-    private ArrayList<Person> people= new ArrayList<Person>();
+    private ArrayList<Person> people = new ArrayList<Person>();
 
-    public Incident(){
+    public Incident() {
 
     }
 
-    public Incident(String ty, String not, String com, ArrayList<Point> ps, ArrayList<Person> lakeys){
+    public Incident(String ty, String not, String com, ArrayList<Point> ps, ArrayList<Person> lakeys) {
         type = ty;
         notes = not;
         commander = com;
@@ -109,7 +109,7 @@ public class Incident {
         this.commander = commander;
     }
 
-    public ArrayList<Point> getPoints(){
+    public ArrayList<Point> getPoints() {
         return points;
     }
 

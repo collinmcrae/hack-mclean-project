@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Situational Awareness for First Responders</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
